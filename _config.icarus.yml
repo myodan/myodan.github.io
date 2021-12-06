@@ -208,9 +208,9 @@ comment:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
+    type: addthis
     # URL to the ShareThis share plugin script
-    install_url: https://platform-api.sharethis.com/js/sharethis.js#property=61adf0d805d49e0019e256b9&product=inline-share-buttons
+    install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61ae271ab60bf62a
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -231,11 +231,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Jongho Hong
+        author: 홍종호
         # Author title
-        author_title: I'm learning by making this and that.
+        author_title: 이것저것 만들어보고 배우는 중입니다.
         # Author's current location
-        location: Daejeon, Republic of Korea
+        location: 대한민국, 대전 
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
