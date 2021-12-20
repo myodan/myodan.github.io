@@ -55,4 +55,4 @@ date: 2021-12-06 23:35:05
 
 <img src="https://img.shields.io/badge/Myodan%238278-5865F2?logo=discord&logoColor=FFFFFF" />
 <img src="https://img.shields.io/badge/Myodan-0077B5?logo=linkedin&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/kr.myodan@gmail.com-D14836?logo=gmail&logoColor=FFFFFF" />
+<img src="https://img.shields.io/badge/myodan@pm.me-8B89CC?logo=protonmail&logoColor=FFFFFF" />
