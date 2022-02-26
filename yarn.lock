@@ -1716,7 +1716,7 @@ hexo-cli@^4.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
-hexo-component-inferno@0.14.0:
+hexo-component-inferno@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/hexo-component-inferno/-/hexo-component-inferno-0.14.0.tgz#ee5a99877559c3f92b4d4ace89e791bd812b1a3b"
   integrity sha512-vjy9TVrcT5xFH7il3v6oav9iAxatIAklkQYiUorVVLQBKz4HDluPGw/xYLJ/fITsIm7jPezv7O5QL5AcLGpgwg==
@@ -2512,9 +2512,9 @@ pretty-hrtime@^1.0.3:
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
 prismjs@^1.17.1:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.25.0.tgz#6f822df1bdad965734b310b315a23315cf999756"
-  integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.27.0.tgz#bb6ee3138a0b438a3653dd4d6ce0cc6510a45057"
+  integrity sha512-t13BGPUlFDR7wRB5kQDG4jjl7XeuH6jbJGt11JHPL96qwsEHNX2+68tFXqc1/k+/jALsbSWJKUOT/hcYAZ5LkA==
 
 psl@^1.1.33:
   version "1.8.0"
