@@ -241,7 +241,7 @@ widgets:
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
-        gravatar: kr.myodan@gmail.com
+        gravatar: myodan@pm.me
         # URL or path for the follow button
         # follow_link: 'https://github.com/myodan'
         # Links to be shown on the bottom of the profile widget
