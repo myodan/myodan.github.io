@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>태그: Git - Jongho&#039;s Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Jongho Hong"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Jongho Hong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Jongho&#039;s Blog"><meta property="og:url" content="https://myodan.dev/"><meta property="og:site_name" content="Jongho&#039;s Blog"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://myodan.dev/img/og_image.png"><meta property="article:author" content="Jongho Hong"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://myodan.dev"},"headline":"Jongho's Blog","image":["https://myodan.dev/img/og_image.png"],"author":{"@type":"Person","name":"Jongho Hong"},"publisher":{"@type":"Organization","name":"Jongho's Blog","logo":{"@type":"ImageObject","url":"https://myodan.dev/"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Jongho&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="GitHub" href="https://github.com/myodan/"><i class="fab fa-github"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">태그</a></li><li class="is-active"><a href="#" aria-current="page">Git</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-12-16T18:16:01.000Z" title="2021. 12. 17. 오전 3:16:01">2021-12-17</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2022-03-20T06:06:49.505Z" title="2022. 3. 20. 오후 3:06:49">2022-03-20</time>&nbsp;업데이트 됨</span><span class="level-item">5분안에 읽기 (약 684 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/12/17/Git-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/">Git 초기 설치 및 설정</a></h1><div class="content"><p>이번에는 Git의 설치 방법과 기초 설정을 알아보도록 합시다.</p>
+<h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><p>설치하는 패키지 매니저를 이용해서 설치하도록 하겠습니다.</p>
+<h3 id="Windows-Winget"><a href="#Windows-Winget" class="headerlink" title="Windows (Winget)"></a>Windows (Winget)</h3><p>Windows는 최근에 새로 출시된 패키지 매니저인 <code>Winget</code>를 이용해서 설치하도록 합시다.<br>Winget은 윈도우에 기본 설치되도록 되어있습니다.</p>
+<p>다음 커맨드를 이용해서 설치하면 됩니다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install --id Git.Git</span><br></pre></td></tr></table></figure>
+
+<p>Windows 버전의 Git은 Git LFS, Git Flow를 포함하고 있어 따로 설치해줄필요는 없습니다.</p>
+<p>만약 Winget이 작동하지 않는다면 이 <a target="_blank" rel="noopener" href="https://gitforwindows.org/">링크</a>를 이용해서 설치하시면 됩니다.</p>
+<h3 id="macOS-Homebrew"><a href="#macOS-Homebrew" class="headerlink" title="macOS (Homebrew)"></a>macOS (Homebrew)</h3><p>macOS는 기본으로 Git이 설치되어있지만, 구버전이니 최신 버전을 다시 설치합시다.</p>
+<p>macOS에서 주로사용되는 패키지 매니저인 <code>Homebrew</code>를 이용해서 설치하도록 합시다.<br>Homebrew 설치는 이 <a target="_blank" rel="noopener" href="https://brew.sh/index_ko">링크</a>를 참고하여 설치하시면 됩니다.</p>
+<p>Homebrew를 설치하고 다음 커맨드를 이용해서 설치하시면 됩니다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install git git-lfs git-flow</span><br></pre></td></tr></table></figure>
+
+<p>자기 OS에 맞게 설치한 뒤에 아래 커맨드를 이용해서 제대로 최신 버전이 설치되었는지 확인합시다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+
+<h2 id="기초-설정"><a href="#기초-설정" class="headerlink" title="기초 설정"></a>기초 설정</h2><p>우선 깃 커밋이나 PR등에서 사용될 사용자 이름과 이메일을 설정하도록 합시다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;Your name&quot;</span><br><span class="line">git config --global user.email &quot;Your email&quot;</span><br></pre></td></tr></table></figure>
+
+<p>다음으로 GitHub에서 기본 브런치이름이 <code>master</code>에서 <code>main</code>으로 변경되었습니다.<br>main으로 변경된 이유가 주종(주인과 노예)관계를 뜻하는 <code>master</code>, <code>slave</code>를 다른 단어로 대체되기 위해서라고 알고 있습니다.</p>
+<p>저도 위 의견에 동의하기 때문에 기본 브랜치 이름을 main으로 변경하도록 하겠습니다.</p>
+<p>본래 Git에는 기본 브랜치 변경 설정이 없었지만, <code>2.28</code>버전 이후로 업데이트되었습니다.</p>
+<p>변경 방법은 아래와 같습니다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global init.defaultBranch &quot;Branch name&quot;</span><br></pre></td></tr></table></figure>
+
+<p>마지막으로 설정이 제대로 됐는지 확인해보도록 합시다.</p>
+<figure class="highlight shell"><figcaption><span>shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure>
+
+<p>위 커맨드로 제대로 설정이 적용되었는지 확인해보겠습니다.</p>
+<figure class="highlight shell"><figcaption><span>output</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">user.name=Your name</span><br><span class="line">user.email=Your email</span><br><span class="line">init.defaultbranch=Branch name</span><br></pre></td></tr></table></figure>
+
+<p>설정이 됬으면 Git 설정이 끝났습니다.</p>
+<p>여기까지 읽어주셔서 감사합니다!</p>
+</div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="https://www.gravatar.com/avatar/605f9c6c8f509e6e38ac825c5a74ffae?s=128" alt="홍종호"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">홍종호</p><p class="is-size-6 is-block">이것저것 만들어보고 배우는 중입니다.</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 대전</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">1</p></a></div></div></nav></div></div><!--!--><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 글</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-12-16T18:16:01.000Z">2021-12-17</time></p><p class="title"><a href="/2021/12/17/Git-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95/">Git 초기 설치 및 설정</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">아카이브</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/12/"><span class="level-start"><span class="level-item">12월 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">태그</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Git/"><span class="tag">Git</span><span class="tag">1</span></a></div></div></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">Jongho&#039;s Blog</a><p class="is-size-7"><span>&copy; 2022 Jongho Hong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="GitHub" href="https://github.com/myodan/"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="입력 하세요..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"입력 하세요...","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>
