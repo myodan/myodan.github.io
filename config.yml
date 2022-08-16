@@ -1,0 +1,55 @@
+baseURL: https://myodan.dev/
+theme: PaperMod
+
+defaultContentLanguage: ko
+
+languages:
+  ko:
+    title: 묘단
+    author: 묘단
+    languageName: 한국어
+    dateFormat: 2006년 01월 02일
+    homeInfoParams:
+      title: 묘단
+      content: 이것저것 만들어보고 배우는 중입니다.
+    menu:
+      main:
+        - name: 아카이브
+          url: archives
+          weight: 10
+        - name: 검색
+          url: search
+          weight: 20
+
+    en:
+      title: Myodan
+      author: Myodan
+      languageName: English
+      homeInfoParams:
+        title: Myodan
+        content: I'm learning by making this and that.
+      menu:
+        main:
+          - name: Archives
+            url: archives
+            weight: 10
+          - name: Search
+            url: search
+            weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  defaultTheme: auto
+  disableThemeToggle: true
+  showCodeCopyButtons: true
+
+  socialIcons:
+    - name: github
+      url: https://github.com/myodan
+    - name: linkedin
+      url: https://linkedin.com/in/myodan
